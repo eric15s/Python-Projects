@@ -12,6 +12,6 @@ def piglatinconverter():
             newList.append(wrd)  # append the new word to the new list
     n = ' '.join(newList)  # convert the list back to a single string
     print(n)
-    main()
+    piglatinconverter()
 
-main()
+piglatinconverter()
