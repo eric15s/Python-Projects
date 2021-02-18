@@ -1,4 +1,4 @@
-def main():
+def piglatinconverter():
     text = input("Enter a phrase to be converted to Pig Latin: ")
     newText = text.split()  # convert string into a list of each word
     newList = []  # creating a new list to add all the new elements
