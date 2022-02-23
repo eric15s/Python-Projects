@@ -21,7 +21,7 @@ def intro():
   #While loop to make sure we dont surpass the input of number of classes  
   while temp < float(classTotal):
     
-    enter = input("Enter your first grade (capitalized Ex: A-, B+, C, ...): ")
+    enter = input("Enter your grade (capitalized Ex: A-, B+, C, ...): ")
     if(enter in gpa):
       total += gpa[enter] # Adding the value to total from the input key
       temp += 1 #adding 1 to our temporary variable to stay under the condition of the while loop
